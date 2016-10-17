@@ -1,0 +1,40 @@
+{
+  "name": "28813-sedona",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Личный проект «Седона» от HTML Academy",
+  "author": "Виталий Шешин",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:htmlacademy-adaptive/28813-sedona.git"
+  },
+  "bugs": {
+    "url": "https://github.com/htmlacademy-adaptive/28813-sedona/issues"
+  },
+  "homepage": "https://github.com/htmlacademy-adaptive/28813-sedona",
+  "devDependencies": {
+    "autoprefixer": "6.4.1",
+    "browser-sync": "2.15.0",
+    "gulp": "3.9.1",
+    "gulp-less": "3.1.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.2.0",
+    "@htmlacademy/editorconfig-cli": "0.0.7"
+  },
+  "scripts": {
+    "test": "editorconfig-cli",
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "less/**/*.less"
+  ],
+  "engines": {
+    "node": "6.5"
+  }
+}
